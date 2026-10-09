@@ -19,7 +19,14 @@ The contracts are tied together in both directions: a Realm reads the charter an
         |  chronicle + law |<-|  chronicle + law |   B reads A's accepted entries
         +------------------+  +------------------+   to judge crossover submissions
 ```
+## Deployed Instances (Testnet)
 
+| Contract | Address |
+| --- | --- |
+| **Canon** (`canon.py`) | `0x480805e4C5f2eC836f6b8d6064c0e46BCe665584` |
+| **Realm** (`realm.py` - Vessa Market) | `0x0814d577BD86C9fD8D6fe6658b867FF6c33BEC1e` |
+
+---
 ## How the linking works
 
 1. Deploy `Canon` with a name and a charter.
